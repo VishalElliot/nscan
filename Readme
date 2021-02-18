@@ -1,0 +1,8 @@
+This is a simple script, extend Features will be added soon.
+
+cd /Nscan
+chmod 775 nscan
+./nscan
+
+
+

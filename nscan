@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Enter IP Address or Range [eg: 1.1.1.1 (or) 1.1.1.0/24]"
+read ip
+
+echo "Enter Port Number or range [eg: 21 (or) 0-65535]"
+read port
+
+echo "Enter Switch [eg: -sV -sT -sn -sS -A -O -Pn]"
+read switch
+
+echo "-*-*-*-*-Nmap Scan Begins-*-*-*-*-"
+nmap $switch $ip -p $port  -oN Result
