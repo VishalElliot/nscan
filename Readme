@@ -1,6 +1,6 @@
 This is a simple script, extend Features will be added soon.
 
-cd /Nscan
+cd /nscan
 chmod 775 nscan
 ./nscan
 
